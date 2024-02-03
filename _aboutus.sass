@@ -1,7 +1,7 @@
 #aboutus
     padding: 40px 0
     .textbox
-        padding: 0 100px
+        padding: 0 70px
         .bigicon
             font-size: 30px
             color: #7492a5
@@ -12,7 +12,7 @@
         h3,p
             color: #a29f9f
             font-size: 23px
-            margin: 20px 0 0
+            margin-top: 20px
             line-height: 1.6
         p
             color: #797d84
@@ -20,7 +20,7 @@
             line-height: 1.4
         li
             display: flex
-            margin: 20px 0 0
+            margin-top: 20px
         .icon
             padding: 0 15px 0 0
             color: #7492a5
@@ -30,3 +30,18 @@
             color: #6c6b6b
     .imgbox
         width: 450px
+    @media (max-width: 992px)
+        .textbox
+            padding: 0
+            h3
+                font-size: 20px
+            p
+                font-size: 18px
+            h3,p
+                margin-top: 16px
+                line-height: 1.4
+            li
+                margin-top: 14px
+    @media (max-width: 768px)
+        .textbox
+            margin: 30px 50px
