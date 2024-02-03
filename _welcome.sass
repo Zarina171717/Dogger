@@ -1,7 +1,7 @@
 #welcome
     padding: 40px 0
     .textbox
-        padding: 80px
+        margin: 0 50px
         line-height: 1.2
         i
             font-size: 30px
@@ -25,6 +25,25 @@
             border-radius: 25px
             background-color: #a4bbb2
             color: #ffff
+            &:hover
+                background-color: #7a8e86
     .wid
         width: 580px
         padding: 0
+    @media (max-width: 992px)
+        .textbox
+            margin: 0 0 40px 0
+            h1
+                font-size: 40px
+            h2
+                font-size: 30px
+            h6
+                font-size: 18px
+                margin: 10px 0
+            .btn
+                padding: 6px 28px
+    @media (max-width: 768px)
+        .secondtxt
+            margin-top: 40px
+        .secondimg
+            margin-top: 40px

@@ -24,6 +24,9 @@ body {
   color: #a59b9b;
   font-size: 24px;
 }
+#carefor .textbox h1:hover, #carefor .textbox h4:hover {
+  cursor: auto;
+}
 #carefor .imgbox {
   width: 500px;
 }
@@ -44,7 +47,7 @@ body {
   padding: 40px 0;
 }
 #welcome .textbox {
-  padding: 80px;
+  margin: 0 50px;
   line-height: 1.2;
 }
 #welcome .textbox i {
@@ -75,9 +78,38 @@ body {
   background-color: #a4bbb2;
   color: white;
 }
+#welcome .textbox .btn:hover {
+  background-color: #7a8e86;
+}
 #welcome .wid {
   width: 580px;
   padding: 0;
+}
+@media (max-width: 992px) {
+  #welcome .textbox {
+    margin: 0 0 40px 0;
+  }
+  #welcome .textbox h1 {
+    font-size: 40px;
+  }
+  #welcome .textbox h2 {
+    font-size: 30px;
+  }
+  #welcome .textbox h6 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  #welcome .textbox .btn {
+    padding: 6px 28px;
+  }
+}
+@media (max-width: 768px) {
+  #welcome .secondtxt {
+    margin-top: 40px;
+  }
+  #welcome .secondimg {
+    margin-top: 40px;
+  }
 }
 
 #aboutus {
