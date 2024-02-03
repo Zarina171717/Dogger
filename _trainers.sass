@@ -23,7 +23,19 @@
                 padding: 10px
                 background-color: #ffff
                 margin: 0 10px 0 0
+                &:hover
+                    cursor: pointer
+                    background-color: #e5dfdf
+        h1,h2,h3,h4
+            cursor: auto
     .wid
         width: 580px
     .imgbox
         margin: 40px 0
+    @media (max-width: 992px)
+        .textbox
+            h3,h4
+                line-height: 1.2
+                font-size: 18px
+            h2
+                font-size: 23px

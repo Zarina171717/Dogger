@@ -209,11 +209,27 @@ body {
   background-color: white;
   margin: 0 10px 0 0;
 }
+#trainers .textbox ul .icon:hover {
+  cursor: pointer;
+  background-color: #e5dfdf;
+}
+#trainers .textbox h1, #trainers .textbox h2, #trainers .textbox h3, #trainers .textbox h4 {
+  cursor: auto;
+}
 #trainers .wid {
   width: 580px;
 }
 #trainers .imgbox {
   margin: 40px 0;
+}
+@media (max-width: 992px) {
+  #trainers .textbox h3, #trainers .textbox h4 {
+    line-height: 1.2;
+    font-size: 18px;
+  }
+  #trainers .textbox h2 {
+    font-size: 23px;
+  }
 }
 
 #pricing {
